@@ -1,23 +1,20 @@
 # AI-Chatbot-System
-It is an Artificial Intelligence Chatbot used to conduct live conversations via text with the use of inputs, outputs and synonyms.
+It is an Artificial Intelligence Chatbot application used to conduct live conversations via text with the use of inputs, outputs and synonyms.
 ## Functionalities
-  •	Login to account. 
-  <br> •	CRUD for customers' booking details.
-  <br> •	Able to reset entered text fields with just a click.
-  <br> •	Validation included. Eg: IC Validation, Check-In/ Check-Out Date, Days of Stay.
-  <br> •	Booking details are saved into [booking.txt](/Hotel-Management-System/Booking.txt).
-  <br> •	Customers' receipt are saved into [receipt.txt](/Hotel-Management-System/receipt.txt).
-  <br> •	Rooms that are booked will be blocked and will not be available for booking.
-  <br> •	Final price is calculated by RM350/day multiplied with service tax of 10%, added with tourism tax of RM10/night.
-  <br> •	Receipt can be printed into PDF format.
-  <br> •	Object Oriented Programming Concepts are used. Eg: Classes, Inheritance, Objects, Encapsulation. 
-  <br> •	Logout from account
+  •	Name recognition.  
+  <br> •	Able to greet users based on day and time during startup.
+  <br> •	Remembering users' last input. 
+  <br> •	Speaking up automatically when input hasn't been entered for as long as 10 minutes.
+  <br> •	Inform users when non-existent inputs are entered.
+  <br> •	Respond to users based on existing inputs and outputs.
+  <br> •	Provide quizzes.
 
 ## Getting Started
-1. Install  [Apache Netbeans IDE 12](https://netbeans.apache.org/download/nb120/index.html) for framework.
-2. Import the hotel management system zip file through the File Tab of Apache Netbeans IDE.
-3. Run the system through JAVA Main Class. 
-4. User can also choose to run the application directly through the executable [JAR File](/Hotel-Management-System/dist/hotelroombookingsystem).
+1. Install  [Verbot Player & Verbot Editor](https://download.cnet.com/Verbot/3000-31711_4-10277575.html) for framework.
+2. Install  [Conversive Character Studio](https://conversive-character-studio.software.informer.com/) to create motion character based on mouth movements.
+3. Run the Verbot Player using [Ben2.vsk](/AI-Chatbot-System/Ben2.vsk).
+4. In Verbot Player, go to Edit > Options > Knowledge Base. Insert [stitch.vkb](/AI-Chatbot-System/stitch.vkb) into the knowledge base. 
+5. Run the program.
 
 
 ## Demos and Screenshot 
@@ -52,21 +49,3 @@ It is an Artificial Intelligence Chatbot used to conduct live conversations via 
 
 -----
 
-<div align="center">
-  <h2>Edit Booking</h2>
-<img src="images/editbooking.gif" alt="gif">
-</div>
-
------
-
-<div align="center">
-  <h2>Delete Booking</h2>
-<img src="images/deletebooking.gif" alt="gif">
-</div>
-
------
-
-<div align="center">
-  <h2>Receipt Page</h2>
-<img src="images/receipt.gif" alt="gif">
-</div>
