@@ -49,3 +49,10 @@ It is an Artificial Intelligence Chatbot application used to conduct live conver
 
 -----
 
+<div align="center">
+  <h2>Bored or Inactivity</h2>
+<img src="images/bored.gif" alt="gif">
+</div>
+
+-----
+
