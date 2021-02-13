@@ -39,8 +39,8 @@ It is an Artificial Intelligence Chatbot used to conduct live conversations via 
 -----
 
 <div align="center">
-  <h2>Create Booking</h2>
-<img src="images/createbooking.gif" alt="gif">
+  <h2>User Input</h2>
+<img src="images/randominput.gif" alt="gif">
 </div>
 
 -----
