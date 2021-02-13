@@ -46,8 +46,8 @@ It is an Artificial Intelligence Chatbot used to conduct live conversations via 
 -----
 
 <div align="center">
-  <h2>View & Search Booking</h2>
-<img src="images/viewbooking.gif" alt="gif">
+  <h2>Users' Last Input</h2>
+<img src="images/lastinput.gif" alt="gif">
 </div>
 
 -----
