@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Verbot5Skin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AgentFileName>merlin.acs</AgentFileName>
+  <LanguageId>1033</LanguageId>
+  <AgentTTSMode />
+  <AgentSpeed>50</AgentSpeed>
+  <AgentPitch>50</AgentPitch>
+  <CharacterFile>Ben\Ben.ccs</CharacterFile>
+  <CharacterTTSMode>0</CharacterTTSMode>
+  <UseConversiveCharacter>true</UseConversiveCharacter>
+  <WindowHeight>0</WindowHeight>
+  <WindowWidth>0</WindowWidth>
+  <AllowWindowResize>true</AllowWindowResize>
+  <BackgroundImageFileName>background.png</BackgroundImageFileName>
+  <AppBackgroundColor>#FFFFFF</AppBackgroundColor>
+  <AgentPanelBackgroundColor>#D4D0C8</AgentPanelBackgroundColor>
+  <InputFont>
+    <FontName>Microsoft Sans Serif</FontName>
+    <FontSize>8.25</FontSize>
+    <FontStyle>Regular</FontStyle>
+  </InputFont>
+  <OutputFont>
+    <FontName>Microsoft Sans Serif</FontName>
+    <FontSize>8.25</FontSize>
+    <FontStyle>Regular</FontStyle>
+  </OutputFont>
+  <InputTextColor>#000000</InputTextColor>
+  <InputBackgroundColor>#DFFDFD</InputBackgroundColor>
+  <OutputTextColor>#000000</OutputTextColor>
+  <OutputBackgroundColor>#DFFDFD</OutputBackgroundColor>
+</Verbot5Skin>

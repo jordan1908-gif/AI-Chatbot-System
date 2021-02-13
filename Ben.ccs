@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CharacterInfo>
+    <Name>Ben</Name>
+    <Author />
+    <Copyright />
+    <License />
+    <AuthorWebsite />
+    <CreationDate>2020-12-06T11:19:13.7027956+08:00</CreationDate>
+    <LastUpdateDate>2020-12-06T11:19:13.7027956+08:00</LastUpdateDate>
+    <Rating>
+      <Rating>Unknown</Rating>
+      <Sexual>false</Sexual>
+      <Violence>false</Violence>
+      <Other>false</Other>
+      <Description />
+    </Rating>
+    <OnlineOptions>
+      <OnlineCharacterBaseUrl />
+      <PreferredWidth>150</PreferredWidth>
+      <PreferredHeight>150</PreferredHeight>
+    </OnlineOptions>
+  </CharacterInfo>
+  <Animations />
+  <VisemeGroups>
+    <VisemeGroup>
+      <Name>Default</Name>
+      <VisemeImages>
+        <VisemeImage>
+          <VisemeIndex>0</VisemeIndex>
+          <ImageResource>images\beaker.silent.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>1</VisemeIndex>
+          <ImageResource>images\beaker.a.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>2</VisemeIndex>
+          <ImageResource>images\beaker.a.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>3</VisemeIndex>
+          <ImageResource>images\beaker.o.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>4</VisemeIndex>
+          <ImageResource>images\beaker.e.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>5</VisemeIndex>
+          <ImageResource>images\beaker.e.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>6</VisemeIndex>
+          <ImageResource>images\beaker.e.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>7</VisemeIndex>
+          <ImageResource>images\beaker.o.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>8</VisemeIndex>
+          <ImageResource>images\beaker.o.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>9</VisemeIndex>
+          <ImageResource>images\beaker.o.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>10</VisemeIndex>
+          <ImageResource>images\beaker.o.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>11</VisemeIndex>
+          <ImageResource>images\beaker.i.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>12</VisemeIndex>
+          <ImageResource />
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>13</VisemeIndex>
+          <ImageResource />
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>14</VisemeIndex>
+          <ImageResource />
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>15</VisemeIndex>
+          <ImageResource>images\beaker.ey.png</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>16</VisemeIndex>
+          <ImageResource />
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>17</VisemeIndex>
+          <ImageResource>A.jpg</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>18</VisemeIndex>
+          <ImageResource>B.jpg</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>19</VisemeIndex>
+          <ImageResource>B.jpg</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>20</VisemeIndex>
+          <ImageResource>A.jpg</ImageResource>
+        </VisemeImage>
+        <VisemeImage>
+          <VisemeIndex>21</VisemeIndex>
+          <ImageResource>B.jpg</ImageResource>
+        </VisemeImage>
+      </VisemeImages>
+    </VisemeGroup>
+  </VisemeGroups>
+  <IdleLevels />
+</Character>

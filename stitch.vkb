@@ -1,0 +1,3772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Rules>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>8429670495AEB022</Id>
+          <Text>_startup</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>1FE78FD976CB478A</Id>
+          <Text>&lt;?csharp Console.Write(code.greeting());?&gt;. What a lovely [_dayofweek]! My name is ChemBot and I am here to assist you in Acids and Bases. What's your name?</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>495653BBDFD1CABD</Id>
+              <Text>*</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C94B63BCBF80BDF8</Id>
+              <Text>_blank</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>BCB7DF898CB7201D</Id>
+              <Text>It would be great if I could know your name</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>DBDA2CA4D1D2328D</VirtualParent>
+            <VirtualParent>C0008FB69F3AA240</VirtualParent>
+          </VirtualParents>
+          <Id>DBDA2CA4D1D2328D</Id>
+          <Name>*</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>83934235E4DD79B8</Id>
+              <Text>_bored</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>C5994C927CF68526</Id>
+              <Text>Hey! Remember me? I'm still here.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>DBDA2CA4D1D2328D</VirtualParent>
+            <VirtualParent>C0008FB69F3AA240</VirtualParent>
+          </VirtualParents>
+          <Id>C0008FB69F3AA240</Id>
+          <Name>_bored</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>754DEBF8E81B62E3</Id>
+              <Text>[name]</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>E5D5F61BFA90D38F</Id>
+              <Text>My name is [name]</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>F9ACF20DC7CCA389</Id>
+              <Text>The name is [name]</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C9F76AD58CB059EC</Id>
+              <Text>I'm [name]</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>197F716231CA0C3</Id>
+              <Text>im [name]</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>7C9F7B7017B39860</Id>
+              <Text>Hi there [name]! My name is ChemBot! Im ready to help you in your questions regarding Acids and Bases. Please select what you want to study
+
+1) 7.1 Characteristics and Properties of Acids and Bases
+2) 7.2 The Strength of Acids and Alkalis
+3) 7.3 Concentration of Acids and Alkalis
+4) 7.4 Neutralisation
+5) Fun facts
+6) Quizzes
+7) Introduction video</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>B8A599C288E2C491</VirtualParent>
+            <VirtualParent>3AD37C2EB85565</VirtualParent>
+            <VirtualParent>DBDA2CA4D1D2328D</VirtualParent>
+            <VirtualParent>F6261C9949E7C421</VirtualParent>
+            <VirtualParent>55E63E4AC933671</VirtualParent>
+            <VirtualParent>54F4D212F69962E8</VirtualParent>
+            <VirtualParent>39E27ACAB2B35F4</VirtualParent>
+            <VirtualParent>C0008FB69F3AA240</VirtualParent>
+            <VirtualParent>C2146E8F600F14E5</VirtualParent>
+            <VirtualParent>D9D8D0FF5C5940AD</VirtualParent>
+          </VirtualParents>
+          <Id>3CC5A5DAE0C9CD95</Id>
+          <Name>name</Name>
+        </Rule>
+      </Children>
+      <VirtualParents />
+      <Id>2E03A9B82D4E826A</Id>
+      <Name>_startup</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A47503BA452F9C0C</Id>
+          <Text>(hi)</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>5F14061F7B9A68F3</Id>
+          <Text>Hello there, My name is ChemBot and I am here to guide you in Acids &amp; Bases.
+What would you like to do today?
+
+1) 7.1 Characteristics and Properties of Acids and Bases
+2) 7.2 The Strength of Acids and Alkalis
+3) 7.3 Concentration of Acids and Alkalis
+4) 7.4 Neutralisation
+5) Fun facts
+6) Learn
+7) Quizzes</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>AB5188CF5793AB26</Id>
+      <Name>hi</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>EFDFC98774A013B6</Id>
+          <Text>(How are you) doing?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>FF495D19CE8AC150</Id>
+          <Text>(How are you)</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>639015065345435E</Id>
+          <Text>(Are you) ok?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>C710EBE0922B86DF</Id>
+          <Text>Are you okay?</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>5F8362BA527F026</Id>
+          <Text>Are you happy or sad?</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D225ACFFC2FE748F</Id>
+          <Text>I am doing just fine. I try to stay positive and happy at all times.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>889F0B5B45D48B5C</Id>
+      <Name>greet</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>4FCBAC5557DBB0C8</Id>
+          <Text>fun fact</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>48D87DA0B680B652</Id>
+          <Text>fun facts</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>14707E30C62914E3</Id>
+          <Text>Lets learn some fun facts</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>9566C1A4C63DC015</Id>
+          <Text>5</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>185DDD85455C976D</Id>
+          <Text>Fun fact 1
+Acids turn litmus paper red, bases turn it blue.
+
+Fun fact 2
+Acids taste sour, bases taste bitter.
+
+Fun fact 3
+Proteins are made up of amino acids.
+
+Fun fact 4
+Vitamin C is also an acid called ascorbic acid.
+
+Fun fact 5
+Ammonia is a base chemical.
+
+Thats all the fun fact I have for you [name].</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>BB6E1A7B9E2ECFA9</Id>
+              <Text>*</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7675D35271A9B915</Id>
+              <Text>_blank</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>A74884748A6CA809</Id>
+              <Text>&lt;send fun fact&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>62BAA7F5CB367EE4</VirtualParent>
+          </VirtualParents>
+          <Id>62BAA7F5CB367EE4</Id>
+          <Name>*</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>5BD42B26CAF1B448</Id>
+              <Text>exit</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>99EF1D7B6F3A78C8</Id>
+              <Text>Exit</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>1169F29EE65DE2CA</Id>
+              <Text>&lt;send [name]&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>39E27ACAB2B35F4</VirtualParent>
+            <VirtualParent>62BAA7F5CB367EE4</VirtualParent>
+          </VirtualParents>
+          <Id>39E27ACAB2B35F4</Id>
+          <Name>exit</Name>
+        </Rule>
+      </Children>
+      <VirtualParents>
+        <VirtualParent>39E27ACAB2B35F4</VirtualParent>
+        <VirtualParent>62BAA7F5CB367EE4</VirtualParent>
+      </VirtualParents>
+      <Id>7356D646C39706C8</Id>
+      <Name>fun fact</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>ED40C71D7F425B3D</Id>
+          <Text>_blank</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>4354C92BC861F2B0</Id>
+          <Text>Remember to not leave your input empty</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+        <Output>
+          <Id>412A32AD385B8A16</Id>
+          <Text>I don't quite understand BLANK SPACES</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>9DB4DFA09B6240CE</Id>
+      <Name>_blank</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>47D6E056009B79E</Id>
+          <Text>7.2</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>B5E13593FE3BBBC9</Id>
+          <Text>2</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>A475305D762FD536</Id>
+          <Text>The Strength Of Acids And Alkalis</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>BAE01E27349D9D82</Id>
+          <Text>What do you want to learn in subchapter 7.2 The Strength of Acids &amp; Alkalis?
+
+Please type exit to leave this subchapter</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>213C7293C83E0B92</Id>
+              <Text>what is pH</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>E109B363DF7CCA61</Id>
+              <Text>pH definition</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>D0CEAC66FB449AF6</Id>
+              <Text>pH meaning</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>B4B5FA332C774925</Id>
+              <Text>definition of pH</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>77B9BD9028E273AE</Id>
+              <Text>meaning of pH</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>DA6659DD94DCCD79</Id>
+              <Text>pH</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>4F6F4604BC5D27A6</Id>
+              <Text>concentration of OH-</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>95D3895D2564ECBB</Id>
+              <Text>concentration of H+</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>732A15C119459036</Id>
+              <Text>whats pH</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>FE257009F813E475</Id>
+              <Text>The pH scale is a set of numbers used to indicate the degree of acidity or alkalinity of a solution. This is by measuring the concentration of the H+ or the OH- ions present in the solution.
+
+The higher the concentration of H+ ions in the solution, the lower the pH value and the more acidic the solution
+
+The higher the concentration of OH-  ions in the solution, the higher the pH value and the more alkaline the solution</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+          </VirtualParents>
+          <Id>307DCABEC01B0037</Id>
+          <Name>pH</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>73ED92003787EEB9</Id>
+              <Text>pH scale</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>618EEE6771A09772</Id>
+              <Text>pH measurement</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>F8B5BF150902CC9</Id>
+              <Text>measure pH</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>515C9D34EAE14619</Id>
+              <Text>how to measure pH</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>4FBAADCD7C7333DA</Id>
+              <Text>pH level</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>68953444383B47B</Id>
+              <Text>levels of pH</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>19D6FC6CF5CE2151</Id>
+              <Text>pH range</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>79AC4EC625149CF</Id>
+              <Text>range of pH</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>FB8100AEBAEAB0D2</Id>
+              <Text>pH scale range</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>18BDDB1D9C7500D8</Id>
+              <Text>universal indicator</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>87BAF826EFB670AA</Id>
+              <Text>pH paper</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>1E76595FAA87D9D</Id>
+              <Text>pH meter</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A4B7F691AAFE844E</Id>
+              <Text>what is a pH scale</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>3BDE7F829FD25157</Id>
+              <Text>whats a pH scale</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>C47157B4D7B9949A</Id>
+              <Text>The values of pH scale range are from 0 to 14
+
+pH value less than 7 is an Acidic solution
+pH value more than 7 is an Alkaline solution
+pH value of 7 is a Neutral solution
+
+pH values can be measured using
+- universal indicator (solution) or pH paper (paper strips)
+- pH meter</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+          </VirtualParents>
+          <Id>FC6CF6023C97C363</Id>
+          <Name>pH scale</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>4643824A2D0A460B</Id>
+              <Text>exit</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>CF319009B50543FD</Id>
+              <Text>Exit</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>F10E4538F776490</Id>
+              <Text>&lt;send [name]&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>B8A599C288E2C491</VirtualParent>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+          </VirtualParents>
+          <Id>B8A599C288E2C491</Id>
+          <Name>exit</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>FB08594860A1910</Id>
+              <Text>pH colour</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>CE0CA09CB5D3DCB3</Id>
+              <Text>colour of pH</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>F3E0E7A5BDFB81F1</Id>
+              <Text>universal indicator colour</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>170933AAF5EC849D</Id>
+              <Text>pH paper colour</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>890935E94E5EACCB</Id>
+              <Text>acid colour</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>E50078BDCE1F5B44</Id>
+              <Text>alkali colour</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7622947ADB41F996</Id>
+              <Text>acidic colour</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>D7634BCA1091100</Id>
+              <Text>alkaline colour</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>81673877D4D41CD8</Id>
+              <Text>colour of acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A665976B8385933</Id>
+              <Text>colour of alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>28CD4EDAA4FFBD2B</Id>
+              <Text>colour</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>247D962EBEFB70F6</Id>
+              <Text>what are the colours of pH</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>3DDC6E67C60EA71E</Id>
+              <Text>what is the pH colour of acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>CE4761298CD24294</Id>
+              <Text>what is the pH colour of alkali</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>829D5AF27831A43A</Id>
+              <Text>Colours of the universal indicator
+
+pH value                                Colour
+
+    0,1,2                                     Red
+       3                                 Orange-Red
+       4                                     Orange
+       5                               Orange-Yellow
+       6                                      Yellow
+
+       7                                       Green
+
+       8                               Greenish-Blue
+     9,10                                     Blue
+       11                              Blueish-purple
+  12,13,14                                Purple</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+          </VirtualParents>
+          <Id>20F8131CF7A3AE44</Id>
+          <Name>pH colour</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>D93AFDC6DFDA71FF</Id>
+              <Text>strength</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>D479BE546A9630D5</Id>
+              <Text>strength of acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>400E9519295F9617</Id>
+              <Text>strength of alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>48D33B98475F607F</Id>
+              <Text>degree of dissociation</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C1F8B96939F00357</Id>
+              <Text>degree of ionisation</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>9296051010DDFA4E</Id>
+              <Text>percentage of molecules</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>17B99643431B03CC</Id>
+              <Text>fraction of molecules</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>4A2552254EF35139</Id>
+              <Text>dissociates in water</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>8D35A24144333AAC</Id>
+              <Text>dissolved in water</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>516A5E3B15DC4D3C</Id>
+              <Text>concentrated acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>9351B593307A8A4</Id>
+              <Text>concentrated alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>8471A466C128533</Id>
+              <Text>what is the strength of acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C33BB9BA7C52919</Id>
+              <Text>what is the strength of alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C13B3FB02ACC5365</Id>
+              <Text>acid strength</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A5EFCE3A649390F4</Id>
+              <Text>alkali strength</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>3E7BD82C6A3309E2</Id>
+              <Text>The strength of an acid or an alkali depends on the degree of dissociation or the degree of ionisation. This means it is a measurement of the percentage or fraction of molecules that dissociates into ions when dissolved in water. The concentration of the molecules present alters the pH level which determines the strength of the acid or alkali.
+
+A concentrated acid does not mean that it is a strong acid.
+A diluted acid does not mean that it is a weak acid.
+
+The strength of an acid or an alkali that makes it strong or weak depends on the degree of dissociation.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+          </VirtualParents>
+          <Id>6894EA9656463300</Id>
+          <Name>strength</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>DB8100D3393C0CA3</Id>
+              <Text>strong acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>19B7B7DEE43E1AE6</Id>
+              <Text>concentrated hydrogen ions</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>6AA4D20D23CC08B8</Id>
+              <Text>concentrated H+</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A954B22C58C77D70</Id>
+              <Text>concentrated solution of H+</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>1E5C47039620E161</Id>
+              <Text>mineral acids</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>3B80EDD1BEA5128B</Id>
+              <Text>hydrochloric acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>BA03A8FA2A252FF5</Id>
+              <Text>nitric acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>69763F4D68791A1A</Id>
+              <Text>sulphuric acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>14179347D5B8523A</Id>
+              <Text>what are strong acids</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7E0729B7264ED8DC</Id>
+              <Text>what is a strong acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>1413D33A9A59F194</Id>
+              <Text>what is strong acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>1FFE76329099A8D4</Id>
+              <Text>whats a strong acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7185B53BF574129C</Id>
+              <Text>whats strong acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>F6234FE0EE377B17</Id>
+              <Text>definition of strong acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>4C956B92641DE29D</Id>
+              <Text>definition strong acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>6BDE5EDE939E0D7</Id>
+              <Text>strong acid definition</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>120B1AFE33E2B3D7</Id>
+              <Text>A strong acid is a chemical substance that dissociates completely (degree of dissociation is 100%) into Hydrogen ions, H+ in water which produces a highly concentrated solution of H+ ions. This returns a lower pH value when tested.
+
+Examples of strong acids:
+
+Mineral Acids
+- Hydrochloric Acid
+- Nitric Acid
+- Sulphuric Acid</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+          </VirtualParents>
+          <Id>FCBBE694CA2AEC72</Id>
+          <Name>strong acid</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>7285585DC64AFBFA</Id>
+              <Text>weak acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>1F497FB696BF5213</Id>
+              <Text>dissociate partially into H+</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>132AD752F89FFAEF</Id>
+              <Text>dissociate partially into hydrogen ions</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>504C3EAF9B08BF5C</Id>
+              <Text>ethanoic acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>FE439C5756D57ED6</Id>
+              <Text>organic acids</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>3E192CFC25C889E3</Id>
+              <Text>ethanedioic acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>1D1B2F3BE4F67655</Id>
+              <Text>methanoic acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>1F3C740C3D3AB0BE</Id>
+              <Text>citric acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A41ED6BE59392B6E</Id>
+              <Text>tartaric acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>13E7FA30FFA0E69A</Id>
+              <Text>carbonic acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>523D60F039F084E1</Id>
+              <Text>phosphoric acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>FB4DA6B4EF290D15</Id>
+              <Text>chromic acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>3448626210DDE0E8</Id>
+              <Text>nitrous acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>5311CCE41E98A552</Id>
+              <Text>sulphurous acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>6B76ADDADE533CDF</Id>
+              <Text>definition of a weak acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>BADD652C74C0199C</Id>
+              <Text>definition of weak acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C459D00CCFC161C</Id>
+              <Text>weak acid definition</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>5A6CCC51C80FCE76</Id>
+              <Text>what are weak acids</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>2B42186DFB4C47C9</Id>
+              <Text>what is a weak acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C639D4E9CF07051C</Id>
+              <Text>whats a weak acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>688AB27F1445B7D</Id>
+              <Text>whats weak acid</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>A7C71B3A5C05B819</Id>
+              <Text>Weak acids are chemicals that dissociate partially (incomplete dissociation) into hydrogen ions, H+ in water. This returns a relatively high pH value compared to other acids but still remain below the pH value of 7.
+
+Examples of weak acids:-
+
+Oraganic Acids
+- Ethanoic Acid
+- Ethanedioic Acid
+- Methanoic Acid
+- Citric Acid
+- Tartaric Acid
+
+- Carbonic Acid
+- Phosphoric Acid
+- Chronic Acid
+- Phosphoric Acid
+- Chromic Acid
+- Nitrous Acid
+- Sulphorous Acid</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+          </VirtualParents>
+          <Id>85B92D59F8CA65B4</Id>
+          <Name>weak acid</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>E33FD85D45E6962E</Id>
+              <Text>strong alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>66CD58ED50D44199</Id>
+              <Text>dissociates completely to hydroxide ions</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>4666F9233E87D52E</Id>
+              <Text>dissociates completely to OH-</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>B9EF8A2F6FC20395</Id>
+              <Text>sodium hydroxide</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>AB016F7A2B97F92B</Id>
+              <Text>potassium hydroxide</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>9B025277EC29DE5</Id>
+              <Text>concentrated OH-</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>B37B51754C9CAD5B</Id>
+              <Text>definition of a strong alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>1F1880983D75A65D</Id>
+              <Text>definition of strong alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>F2564DEA5B9283F7</Id>
+              <Text>definition strong alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>8C3081C3BA86D55D</Id>
+              <Text>strong alkali definition</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>100EA62C75BEE9B5</Id>
+              <Text>what are strong alkalis</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>6E458639485E33C0</Id>
+              <Text>what is strong alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>19E971C2CBC488E8</Id>
+              <Text>what is a strong alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>19DACA6624ACEBB3</Id>
+              <Text>whats a strong alkali</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>8445CD66A3169DBF</Id>
+              <Text>A strong alkali is a chemical substance that dissociates completely (100%) into hydroxide ions, OH- in water. This returns a higher pH value when tested.
+
+Examples of strong alkalis:-
+
+Sodium Hydroxide, NaOH
+Potassium Hydroxide, KOH</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+          </VirtualParents>
+          <Id>E9752611EC26A56</Id>
+          <Name>strong alkali</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>A2C86A406437C579</Id>
+              <Text>*</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>68016F2DA6CD0E04</Id>
+              <Text>_blank</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>DF96CE8022D955F0</Id>
+              <Text>&lt;send 7.2&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+          </VirtualParents>
+          <Id>C6482EA6A4E4D36E</Id>
+          <Name>*</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>9466662A578AEA67</Id>
+              <Text>_bored</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>E84E01FD72C4FEEB</Id>
+              <Text>Hey! Remember me? I'm still here.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+          </VirtualParents>
+          <Id>E6473BD420919046</Id>
+          <Name>_bored</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>463E44B784C086B4</Id>
+              <Text>What did I say?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>22F2E37551D55EFD</Id>
+              <Text>What did I just say?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>9EF141E2C0E6114A</Id>
+              <Text>You said: [_lastinput]</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+          </VirtualParents>
+          <Id>A35118DE2226FA2D</Id>
+          <Name>lastinput</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>71F2394BFC20FD8C</Id>
+              <Text>weak alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>35C8CB69854E2636</Id>
+              <Text>dissociates partially to hydroxide ions</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>2DA4DE924C18F3D</Id>
+              <Text>dissociates partially to OH-</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>134FC8528A80FBDE</Id>
+              <Text>aqueous ammonia</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>373E8DC92592ADBD</Id>
+              <Text>calcium hydroxide</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>D2C5AB4E8446757C</Id>
+              <Text>magnesium hydroxide</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>98F81460806513C7</Id>
+              <Text>definition of a weak alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>F4662C0EB3F75AC7</Id>
+              <Text>definition of weak alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>9CB0775C466266B</Id>
+              <Text>weak alkali definition</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>B397382365DD9F21</Id>
+              <Text>what are weak alkalis</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>9383D7306B223EF9</Id>
+              <Text>what is a weak alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>2862A3E67036601C</Id>
+              <Text>whats a weak alkali</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>BD5A2C8240D7DAEF</Id>
+              <Text>A weak alkali is a chemical substance that dissociates partially (incomplete dissociation) to hydroxide ions, OH- in water. This produces a lower pH value compared to strong alkalis but will still remain above the pH value of 7.
+
+Examples of weak alkalis:-
+
+Aqueous ammonia
+Calcium hydroxide
+Magnesium hydroxide</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+            <VirtualParent>E9752611EC26A56</VirtualParent>
+            <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+            <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+            <VirtualParent>FC6CF6023C97C363</VirtualParent>
+            <VirtualParent>307DCABEC01B0037</VirtualParent>
+            <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>6894EA9656463300</VirtualParent>
+            <VirtualParent>E6473BD420919046</VirtualParent>
+            <VirtualParent>A35118DE2226FA2D</VirtualParent>
+          </VirtualParents>
+          <Id>E27BF46ABD99CC73</Id>
+          <Name>weak alkali</Name>
+        </Rule>
+      </Children>
+      <VirtualParents>
+        <VirtualParent>307DCABEC01B0037</VirtualParent>
+        <VirtualParent>FC6CF6023C97C363</VirtualParent>
+        <VirtualParent>C6482EA6A4E4D36E</VirtualParent>
+        <VirtualParent>B8A599C288E2C491</VirtualParent>
+        <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+        <VirtualParent>6894EA9656463300</VirtualParent>
+        <VirtualParent>FCBBE694CA2AEC72</VirtualParent>
+        <VirtualParent>E9752611EC26A56</VirtualParent>
+        <VirtualParent>85B92D59F8CA65B4</VirtualParent>
+        <VirtualParent>E27BF46ABD99CC73</VirtualParent>
+        <VirtualParent>A35118DE2226FA2D</VirtualParent>
+      </VirtualParents>
+      <Id>DFE4BBD536DE623C</Id>
+      <Name>7.2</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>74FD872170618F69</Id>
+          <Text>7.1</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>78593621BE29F65E</Id>
+          <Text>1</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>E9F007DB30D6E20</Id>
+          <Text>The Characteristics and Properties of Acids &amp; Bases</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D4C1411926A26B7</Id>
+          <Text>What do you want to learn in subchapter 7.1 The Characteristics and Properties of Acids &amp; Bases?
+
+Please type exit to leave this subchapter</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>C0687257580D8523</Id>
+              <Text>Whats the basicity of acids?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>6660473F5C489724</Id>
+              <Text>acid basicity</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>AC6E61CC6BD7A313</Id>
+              <Text>What is the basicity of an acid?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7163E6593A6FE22</Id>
+              <Text>What does basicity of acid means?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>78A0548E8298E791</Id>
+              <Text>What does acid basicity means?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>D8E769C587E2D811</Id>
+              <Text>Basicity of an acid is the number of hydrogen ions which can be produced by one molecule of the acid. There are 3 common types of Basicity of an acid which are monoprotic, diprotic and triprotic respectively. Monoprotics acids are the acids that produced 1 H+ ion from each acid molecule. Diprotics acids are the acids that produced 2 H+ ion from each acid molecule. Triprotics acids are the acids that produced 3 H+ ion from each acid molecule.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>3DB6777FDE2E95A</VirtualParent>
+            <VirtualParent>386F59A778476B47</VirtualParent>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>3224ED8A45C267CF</Id>
+          <Name>acid basicity</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>7F8D8BB38B1540E5</Id>
+              <Text>How can acids help us</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>83F6D2DA12A93B56</Id>
+              <Text>How can acids help us in life</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>171E95018CE894F5</Id>
+              <Text>How can acids help human</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>5C200E80C5DACB5</Id>
+              <Text>How can acids help people</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>BBD1B849F05CF7B</Id>
+              <Text>How are acids useful</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>291E5F0BB102EA2</Id>
+              <Text>Whats the function of acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>8F6CF85E86DF6360</Id>
+              <Text>Whats the main function of acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>EF1C09566251DAE2</Id>
+              <Text>How do acids help people in life</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>8E309265FAE6370B</Id>
+              <Text>I want to know how acids can help us in life</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>8A259F41F54A4204</Id>
+              <Text>I want to know what acids do</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>92A0E3FDA2505DBE</Id>
+              <Text>I want to know the function of acids</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>9FD19B8255AA80E4</Id>
+              <Text>Acids and bases are important in living things because most enzymes can do their job only at a certain level of acidity. Cells secrete acids and bases to maintain the proper pH for enzymes to work. Here is an example for you Jordan. Every time you digest food, acids and bases are at work in order to soothen your digestive system.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>386F59A778476B47</VirtualParent>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>82512CC552CDCEF6</Id>
+          <Name>acid benefits</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>94D241FBDFC580AF</Id>
+              <Text>acid chemical properties</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A4E4F66C3304B0CE</Id>
+              <Text>acid chemical property</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>B4054827F6EA1742</Id>
+              <Text>What are the chemical properties of acids?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>E74F2F409D777AC7</Id>
+              <Text>What is the chemical properties of acids?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>34B6457CBEF12B39</Id>
+              <Text>Whats the chemical properties of acids?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>29046821C807432</Id>
+              <Text>Acids have the following chemical properties. 
+Firstly, Acid mixed with Reactive Metal will turn into Salt with Hydrogen gas.
+Secondly, Acid mixed with Metal Carbonate will turn into Salt with Water and Carbon Dioxide gas. 
+Thirdly, Acid mixed with Base oxide will turn into Salt with Water.
+Last but not least, Acid mixed with Alkali will turn into Salt with Water.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>386F59A778476B47</VirtualParent>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>FC91D836C446872F</Id>
+          <Name>acid chemical properties</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>F36716387A5069B4</Id>
+              <Text>What are the physical properties of acids?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C7074AD719D00CCA</Id>
+              <Text>Whats the physical properties of acids?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>CB6C266CA34A1D7</Id>
+              <Text>What is the physical properties of acids?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>737C164C30512AB7</Id>
+              <Text>acid physical properties</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>34E1D4B03698BFBF</Id>
+              <Text>acid physical property</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A82171C7422CFA29</Id>
+              <Text>physical properties of acid</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>259B95D133729002</Id>
+              <Text>Acids taste sour, turns moist blue litmus to red, has a pH value less than 7, can conduct electricity, and it is corrosive.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>386F59A778476B47</VirtualParent>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>90C0DE7134A94140</Id>
+          <Name>acid physical properties</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>C53CB1B02518BC</Id>
+              <Text>alkali chemical properties</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>9629940F8DEEC4DA</Id>
+              <Text>alkali chemical property</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>369F72D8BF30889B</Id>
+              <Text>What are the chemical properties of alkali?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>9623E652FCC9DB46</Id>
+              <Text>What is the chemical properties of alkali?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>514EEA3B9B5E801</Id>
+              <Text>Whats the chemical properties of alkali?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>B70A472FE9D5D2C3</Id>
+              <Text>chemical properties of alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>D71932209D883649</Id>
+              <Text>chemical properties of acid</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>C33DEDA6E9648300</Id>
+              <Text>Alkalis react with acids to form a salt and water which act as a neutralisation reaction. Not to mention, Alkalis, when warmed with ammonium salts, give off ammonia gas. For example, Potassium hydroxide mixed with Nitric Acid will form Potassium Nitrate with Water.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>386F59A778476B47</VirtualParent>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>4AB71142D2A605FB</Id>
+          <Name>alkali chemical properties</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>63D3CB36E39B76E9</Id>
+              <Text>alkali physical property</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>24CC652E810F4B38</Id>
+              <Text>alkali physical properties</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>634462DB5C81AB79</Id>
+              <Text>What are the physical properties of alkali?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>6918BF48C3CE776</Id>
+              <Text>Whats the physical properties of alkali?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>E2A3DF7FDCDFEA9D</Id>
+              <Text>What is the physical properties of alkali?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>F056CA02AB0C8625</Id>
+              <Text>physical properties of alkali</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>FE8453A522896AF8</Id>
+              <Text>Alkalis are bitter in taste, turn litmus from red to blue, has pH value more than 7, and can conduct electricity.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>386F59A778476B47</VirtualParent>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>6612B82D2C5D655C</Id>
+          <Name>alkali physical properties</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>D3E1F44278D2AF73</Id>
+              <Text>ammonia definition</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>95B578DFAA79B6F8</Id>
+              <Text>ammonia meaning</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>98DE2A6669367EAC</Id>
+              <Text>ammonia</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>97A516C8618A4F3A</Id>
+              <Text>What is the meaning of ammonia?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>79CF2B57F78DDE8C</Id>
+              <Text>Whats the meaning of ammonia?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>B6ABFB7CB8483134</Id>
+              <Text>What is ammonia?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>E27397933269601D</Id>
+              <Text>Whats ammonia?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>579C2C62C9F8F35C</Id>
+              <Text>By nature, ammonia is a covalent compound. Firstly, Ammonia exists as gas at room temperature. Next, Ammonia gas is soluble in water. Physical properties of ammonia include pungent smell, colourless and turn litmus from red to blue.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>386F59A778476B47</VirtualParent>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>7969CAE8303B499B</Id>
+          <Name>ammonia definition</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>F4D5AC21A94E3960</Id>
+              <Text>(what is) acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>D4A00E92C8B7CB7</Id>
+              <Text>(what is) acid definition</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>AEA3DAAD117A2726</Id>
+              <Text>acid definition</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>E92BFE17B98D130F</Id>
+              <Text>I want to know what are acids</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>FFFBD2292102F118</Id>
+              <Text>I want to know whats acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>65C8EBA3C591CA91</Id>
+              <Text>I want to know what is acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>4A2FDF3168866352</Id>
+              <Text>I want to know what's acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>740CEB323C53DB80</Id>
+              <Text>I want to know about acids</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>4AC7CCC1F488C7C5</Id>
+              <Text>I want to know about acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>513E6196E775A8CE</Id>
+              <Text>I want to learn about acids</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7BEECE8419C0AC3B</Id>
+              <Text>I want to learn about acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>F821A20191EE15A5</Id>
+              <Text>I want to learn more about acids</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A641AE45A947D5FE</Id>
+              <Text>I want to learn more about acid</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>9CCBE2734D5A7F59</Id>
+              <Text>Tell me about acids</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>599FAA49C7BDC0D6</Id>
+              <Text>Tell me about acid</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>220ECAD241AED154</Id>
+              <Text>Acids are a substance with particular chemical properties including turning litmus red, neutralizing alkalis, and dissolving some metals; typically, a corrosive or sour-tasting liquid of this kind.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>386F59A778476B47</VirtualParent>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>A9E6E6489970F246</Id>
+          <Name>definition of acids</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>A2CDC0A6A480CC2F</Id>
+              <Text>What is the use of litmus paper?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>68D756529079F829</Id>
+              <Text>What does litmus paper do?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A82C2D3A82D18EE1</Id>
+              <Text>What can litmus paper do?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>29D0951844ADC56F</Id>
+              <Text>What is litmus paper?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>10E80E26BBDCF20C</Id>
+              <Text>What are the functions of litmus paper?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>CFB44BF1A8CBF007</Id>
+              <Text>Litmus can be used as acid and alkali indicator. The litmus turn red in acids and turn blue in alkali.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>386F59A778476B47</VirtualParent>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>FF9FE062C2145C0B</Id>
+          <Name>litmus paper</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>B7CC9935E57C249</Id>
+              <Text>exit</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>712CDC1530FC0773</Id>
+              <Text>Exit</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>3F2EC71EF5F6E010</Id>
+              <Text>&lt;send [name]&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>F6261C9949E7C421</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>F6261C9949E7C421</Id>
+          <Name>exit</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>C642F1B763708434</Id>
+              <Text>*</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>FCEEEEF5D567522B</Id>
+              <Text>_blank</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>9EDCAA80B78FA91C</Id>
+              <Text>&lt;send 7.1&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>FFF53718613CB54</Id>
+          <Name>*</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>3F3B23C6D452EBAE</Id>
+              <Text>(ph value)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>F2174A4F9BEC3878</Id>
+              <Text>pH value is quantity to measure the concentration of hydrogen ions in a solution. The higher the concentration of hydrogen, the lower the pH value of the solution.
+Pure water has pH value of 7 while all acids has pH value lower than 7.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>BBED52A280A138A5</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>120B0387F8B406E</Id>
+          <Name>pH value</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>1D8B38D441ED4EE1</Id>
+              <Text>What did I say?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>485F88494704C53</Id>
+              <Text>What did I just say?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>72226ACAA56C603C</Id>
+              <Text>You said: [_lastinput]</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+          </VirtualParents>
+          <Id>B7B3605EAA41C665</Id>
+          <Name>lastinput</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>116EBED49B4623E2</Id>
+              <Text>_bored</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>FCD8293A8876FD9E</Id>
+              <Text>Hey! Remember me? I'm still here.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>EF50FDE320348C15</VirtualParent>
+            <VirtualParent>FFF53718613CB54</VirtualParent>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>82512CC552CDCEF6</VirtualParent>
+            <VirtualParent>FC91D836C446872F</VirtualParent>
+            <VirtualParent>90C0DE7134A94140</VirtualParent>
+            <VirtualParent>4AB71142D2A605FB</VirtualParent>
+            <VirtualParent>6612B82D2C5D655C</VirtualParent>
+            <VirtualParent>7969CAE8303B499B</VirtualParent>
+            <VirtualParent>A9E6E6489970F246</VirtualParent>
+            <VirtualParent>B7B3605EAA41C665</VirtualParent>
+            <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+            <VirtualParent>120B0387F8B406E</VirtualParent>
+          </VirtualParents>
+          <Id>EF50FDE320348C15</Id>
+          <Name>_bored</Name>
+        </Rule>
+      </Children>
+      <VirtualParents>
+        <VirtualParent>386F59A778476B47</VirtualParent>
+        <VirtualParent>3224ED8A45C267CF</VirtualParent>
+        <VirtualParent>82512CC552CDCEF6</VirtualParent>
+        <VirtualParent>FC91D836C446872F</VirtualParent>
+        <VirtualParent>90C0DE7134A94140</VirtualParent>
+        <VirtualParent>4AB71142D2A605FB</VirtualParent>
+        <VirtualParent>6612B82D2C5D655C</VirtualParent>
+        <VirtualParent>7969CAE8303B499B</VirtualParent>
+        <VirtualParent>A9E6E6489970F246</VirtualParent>
+        <VirtualParent>F6261C9949E7C421</VirtualParent>
+        <VirtualParent>FF9FE062C2145C0B</VirtualParent>
+        <VirtualParent>BBED52A280A138A5</VirtualParent>
+        <VirtualParent>120B0387F8B406E</VirtualParent>
+        <VirtualParent>B7B3605EAA41C665</VirtualParent>
+        <VirtualParent>FFF53718613CB54</VirtualParent>
+      </VirtualParents>
+      <Id>423C98A8956AC227</Id>
+      <Name>7.1</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>ACB1A13A5ABB9E</Id>
+          <Text>quiz</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>E477467DAD0EC17E</Id>
+          <Text>quizzes</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>1F77AF1ABC829108</Id>
+          <Text>6</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>D09D1042A35FFE57</Id>
+          <Text>Question Number 1 
+Bleach is a strong base, what is the pH level of bleach?
+
+A) 13
+B) 2 
+C) 1 
+D) 8</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>60A425C9199C7A23</Id>
+              <Text>(quiz 1 correct)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>14CFD4F4F878F29F</Id>
+              <Text>Good job, [name]. You have answered correctly. 
+
+Question Number 2 
+Which of the following turns litmus paper red? 
+A) Bases
+B) Salts 
+C) Acids 
+D) Water</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+          </VirtualParents>
+          <Id>C52B363E6AC0452D</Id>
+          <Name>correct answers q1</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>60FBBDD7124BA4C8</Id>
+              <Text>(quiz 2 correct)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>4846E840D570AC55</Id>
+              <Text>Good job, [name]. You have answered correctly. 
+
+Question Number 3 
+The maximum amount of a solute that will dissolve in a certain amount of solvent at a given temperature is that solute’s 
+A) Solubility
+B) Concentration 
+C) Degree of saturation 
+D) Rate of solution</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+          </VirtualParents>
+          <Id>7E94FF2062343748</Id>
+          <Name>correct answers q2</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>F0906ED7B11821E</Id>
+              <Text>(quiz 3 correct)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>A66381C25160D930</Id>
+              <Text>Good job, [name]. You have answered correctly. 
+
+Question Number 4
+What primarily determines the pH of a solution?
+A) Solubility of a solute
+B) Temperature of the solution
+C) Hydrogen ion concentration</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+          </VirtualParents>
+          <Id>A3DEFB953B772CA4</Id>
+          <Name>correct answers q3</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>7688023FDFAE6904</Id>
+              <Text>(quiz 4 correct)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>A60038CFD506E0CB</Id>
+              <Text>Good job, [name]. You have answered correctly. 
+
+Here comes the last question. 
+An organic substance that changes color in the presence of an acid or base is called 
+A) Indicator 
+B) Catalyst 
+C) Inhibitor 
+D) Instrument</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+          </VirtualParents>
+          <Id>FD82FA4A2322377E</Id>
+          <Name>correct answers q4</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>50644A93D9B7FC1A</Id>
+              <Text>(quiz 5 correct)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>380CDAB8712250D2</Id>
+              <Text>Congratulations, [name]. You have answered the questions correctly and have came to the end of the quiz. You may type exit to leave the quiz.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+          </VirtualParents>
+          <Id>A354144CA6A738D7</Id>
+          <Name>correct answers q5</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>E556D2CF52C1C3A</Id>
+              <Text>(quiz 1 incorrect)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>69E8566953943016</Id>
+              <Text>Oh no, the answer you have given is incorrect, [name]. Lets try that again. 
+
+Question Number 1 
+Bleach is a strong base, what is the pH level of bleach?
+
+A) 13
+B) 2 
+C) 1 
+D) 8</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+          </VirtualParents>
+          <Id>B9BFAA81FA3B9D52</Id>
+          <Name>wrong answers q1</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>DDBAFB323086AD04</Id>
+              <Text>(quiz 3 incorrect)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>C14D0475D50C5BBD</Id>
+              <Text>Oh no, the answer you have given is incorrect, [name]. Lets try that again. 
+
+Question Number 3 
+The maximum amount of a solute that will dissolve in a certain amount of solvent at a given temperature is that solute’s 
+
+A) Solubility
+B) Concentration 
+C) Degree of saturation 
+D) Rate of solution</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+          </VirtualParents>
+          <Id>920DC8493A05A3A0</Id>
+          <Name>wrong answers q3</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>C4564FDD43995BA3</Id>
+              <Text>(quiz 4 incorrect)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>DF855F0C1FCB6421</Id>
+              <Text>Oh no, the answer you have given is incorrect, [name]. Lets try that again.
+
+Question Number 4
+What primarily determines the pH of a solution?
+A) Solubility of a solute
+B) Temperature of the solution
+C) Hydrogen ion concentration</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+          </VirtualParents>
+          <Id>B56E1712339200CE</Id>
+          <Name>wrong answers q4</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>A40AF2C2A69D0A66</Id>
+              <Text>(quiz 5 incorrect)</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>E30373F339954C5E</Id>
+              <Text>Oh no, the answer you have given is incorrect, [name]. Lets try that again.
+
+Here comes the last question. 
+An organic substance that changes color in the presence of an acid or base is called 
+A) Indicator 
+B) Catalyst 
+C) Inhibitor 
+D) Instrument</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+          </VirtualParents>
+          <Id>88097AAD4689E54A</Id>
+          <Name>wrong answers q5</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>875A1AD27D00A27B</Id>
+              <Text>exit</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>AC19360FC71FAD7</Id>
+              <Text>Exit</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>56095F0195A7104D</Id>
+              <Text>&lt;send [name]&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>55E63E4AC933671</VirtualParent>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+          </VirtualParents>
+          <Id>55E63E4AC933671</Id>
+          <Name>exit</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>4E1229A83DFFA8AC</Id>
+              <Text>*</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>38C9F1F4D94D4FD2</Id>
+              <Text>_blank</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>AFB87AAAB668B014</Id>
+              <Text>&lt;send quiz&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+          </VirtualParents>
+          <Id>51832ADAC6539D7C</Id>
+          <Name>*</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>E51C3124A615AEDA</Id>
+              <Text>_bored</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>3F03A0031364A559</Id>
+              <Text>Hey! Remember me? I'm still here.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+          </VirtualParents>
+          <Id>BC563D8A44DA692A</Id>
+          <Name>_bored</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>996CCC584E6BC825</Id>
+              <Text>(quiz 2 incorrect)</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>38DBEC6A5E78B389</Id>
+              <Text>bases</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7476E70CE2C80D97</Id>
+              <Text>water</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>ED769DDEAA01FC1C</Id>
+              <Text>salt</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>892B0941FEBFD955</Id>
+              <Text>Oh no, the answer you have given is incorrect, [name]. Lets try that again. 
+
+Question Number 2 
+Which of the following turns litmus paper red? 
+
+A) Bases 
+B) Acids
+C) Salts 
+D) Water</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>C52B363E6AC0452D</VirtualParent>
+            <VirtualParent>7E94FF2062343748</VirtualParent>
+            <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+            <VirtualParent>FD82FA4A2322377E</VirtualParent>
+            <VirtualParent>A354144CA6A738D7</VirtualParent>
+            <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+            <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+            <VirtualParent>920DC8493A05A3A0</VirtualParent>
+            <VirtualParent>B56E1712339200CE</VirtualParent>
+            <VirtualParent>88097AAD4689E54A</VirtualParent>
+            <VirtualParent>51832ADAC6539D7C</VirtualParent>
+            <VirtualParent>BC563D8A44DA692A</VirtualParent>
+          </VirtualParents>
+          <Id>86DCA9A0ACE3AB63</Id>
+          <Name>wrong answers q2</Name>
+        </Rule>
+      </Children>
+      <VirtualParents>
+        <VirtualParent>55E63E4AC933671</VirtualParent>
+        <VirtualParent>FD82FA4A2322377E</VirtualParent>
+        <VirtualParent>A3DEFB953B772CA4</VirtualParent>
+        <VirtualParent>7E94FF2062343748</VirtualParent>
+        <VirtualParent>C52B363E6AC0452D</VirtualParent>
+        <VirtualParent>A354144CA6A738D7</VirtualParent>
+        <VirtualParent>B9BFAA81FA3B9D52</VirtualParent>
+        <VirtualParent>86DCA9A0ACE3AB63</VirtualParent>
+        <VirtualParent>920DC8493A05A3A0</VirtualParent>
+        <VirtualParent>B56E1712339200CE</VirtualParent>
+        <VirtualParent>88097AAD4689E54A</VirtualParent>
+        <VirtualParent>51832ADAC6539D7C</VirtualParent>
+      </VirtualParents>
+      <Id>80ADFC7F8CB1CE37</Id>
+      <Name>quiz</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>B313BAEA874CF4D5</Id>
+          <Text>video</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>BC131620FB484EA4</Id>
+          <Text>introduction video</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>9F57761E6E07FBAF</Id>
+          <Text>videos</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>6922FF2F6F762728</Id>
+          <Text>I want to watch the video</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>5180E70E565A8602</Id>
+          <Text>7</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>95166998800B380A</Id>
+          <Text>Here's the video. Hope you are able to get a more in depth concept of Acids and Bases, [name].</Text>
+          <Condition />
+          <Cmd>https://www.youtube.com/watch?v=Xeuyc55LqiY&amp;ab_channel=BozemanScience</Cmd>
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>7C5E62E6D97624B</Id>
+              <Text>*</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>E5C1465A8B132786</Id>
+              <Text>_blank</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>7239EC48A4BDEC91</Id>
+              <Text>&lt;send video&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>DB7E99FFF66766B9</VirtualParent>
+          </VirtualParents>
+          <Id>DB7E99FFF66766B9</Id>
+          <Name>*</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>8BE5391F64910F05</Id>
+              <Text>exit</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7E2D93A55637F501</Id>
+              <Text>Exit</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>1FD272D627C31410</Id>
+              <Text>&lt;send [name]&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>54F4D212F69962E8</VirtualParent>
+            <VirtualParent>DB7E99FFF66766B9</VirtualParent>
+          </VirtualParents>
+          <Id>54F4D212F69962E8</Id>
+          <Name>exit</Name>
+        </Rule>
+      </Children>
+      <VirtualParents>
+        <VirtualParent>54F4D212F69962E8</VirtualParent>
+        <VirtualParent>DB7E99FFF66766B9</VirtualParent>
+      </VirtualParents>
+      <Id>42F451551F6D1144</Id>
+      <Name>video</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>9BBB46C19F4418AF</Id>
+          <Text>*</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>5CD6938A72EC3376</Id>
+          <Text>&lt;send [name]&gt;</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>DAA5CC4E7D28F59</Id>
+      <Name>*</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>3239FFAF55FFEE</Id>
+          <Text>_bored</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>6BDCB10EB4ECA6E3</Id>
+          <Text>Hey! Remember me? I'm still here.</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children />
+      <VirtualParents />
+      <Id>DEAF8F24DE6A3780</Id>
+      <Name>_bored</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>A7C3A70EF0DE6F88</Id>
+          <Text>3</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>2240FB74B51B79FF</Id>
+          <Text>7.3</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>9013B8EBE3442098</Id>
+          <Text>Concentration of Acids and Alkalis</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>1FC042AF96CB147E</Id>
+          <Text>What do you want to learn in subchapter 7.3 The Concentration of Acids &amp; Alkalis?
+
+Please type exit to leave this subchapter</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>1B8988DEFD468B88</Id>
+              <Text>*</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>8EC96E9EAD2CF115</Id>
+              <Text>_blank</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>18CA4EE83DDE89B4</Id>
+              <Text>&lt;send 7.3&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>1B065161B1FBBB11</VirtualParent>
+            <VirtualParent>D8754D854B5A4B9C</VirtualParent>
+            <VirtualParent>ADE6B318F8720FA6</VirtualParent>
+            <VirtualParent>E2BE2DC489384B88</VirtualParent>
+            <VirtualParent>633754418C79688F</VirtualParent>
+            <VirtualParent>AD351B039F32354</VirtualParent>
+            <VirtualParent>5E07FC8A181D3C42</VirtualParent>
+          </VirtualParents>
+          <Id>ADE6B318F8720FA6</Id>
+          <Name>*</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>61DA1AA6BDF78B54</Id>
+              <Text>exit</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>85FCE5326CDCB5D1</Id>
+              <Text>Exit</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>56209A9D03D60F1</Id>
+              <Text>&lt;send [name]&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>20F8131CF7A3AE44</VirtualParent>
+            <VirtualParent>1B065161B1FBBB11</VirtualParent>
+            <VirtualParent>D9D8D0FF5C5940AD</VirtualParent>
+            <VirtualParent>D8754D854B5A4B9C</VirtualParent>
+            <VirtualParent>ADE6B318F8720FA6</VirtualParent>
+            <VirtualParent>E2BE2DC489384B88</VirtualParent>
+            <VirtualParent>633754418C79688F</VirtualParent>
+            <VirtualParent>AD351B039F32354</VirtualParent>
+            <VirtualParent>5E07FC8A181D3C42</VirtualParent>
+          </VirtualParents>
+          <Id>D9D8D0FF5C5940AD</Id>
+          <Name>exit</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>5EF12A742B891644</Id>
+              <Text>concentration</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A666ACF2E86EA04E</Id>
+              <Text>concentration of a solution</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>DFB384C3978DD06</Id>
+              <Text>definition for concentration of a solution</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>1B5B8561D91C83E7</Id>
+              <Text>what is concentration of a solution</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>3F0F3034B9B62BA9</Id>
+              <Text>What does concentration of a solution means?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>2C39B8D270E177D6</Id>
+              <Text>The concentration of a solution tells you how much solute is dissolved in 1 unit volume of solution.
+
+The volume of a solution is measured in dm³ (litres).  1 dm³ = 1000 cm³.
+
+The amount of solute can be measured in grams or moles.
+
+2 units of concentration used in chemistry are g dm-3 and mol dm-3
+
+Fomula for calculating concentration of a solution is
+concentration(gdm^(3)) = mass of solute(g)  /volume of solution(dm^(3))</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>1B065161B1FBBB11</VirtualParent>
+            <VirtualParent>D8754D854B5A4B9C</VirtualParent>
+            <VirtualParent>ADE6B318F8720FA6</VirtualParent>
+            <VirtualParent>E2BE2DC489384B88</VirtualParent>
+            <VirtualParent>633754418C79688F</VirtualParent>
+            <VirtualParent>AD351B039F32354</VirtualParent>
+            <VirtualParent>5E07FC8A181D3C42</VirtualParent>
+          </VirtualParents>
+          <Id>D8754D854B5A4B9C</Id>
+          <Name>concentration</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>260C788017439366</Id>
+              <Text>Molarity</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>DA2B2496D42EA3B</Id>
+              <Text>molarity</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>F8308FEF35C444D1</Id>
+              <Text>What is molarity</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>57FAE05A8EE39C80</Id>
+              <Text>definition of molarity</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>A42D04271D4C9A90</Id>
+              <Text>What does molarity means?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>43F0E5FFA49D4C35</Id>
+              <Text>Whats molarity?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>704DF22B27E435FE</Id>
+              <Text>Molarity is mumber of mole of solute in a solution can be calculated by using the following formula
+n=MV/1000
+
+n = number of mole of solute
+M = molaruty of the solution
+V = volume of the solution in cm3
+
+Formula for molarity is mol dm^(-3)</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>1B065161B1FBBB11</VirtualParent>
+            <VirtualParent>D8754D854B5A4B9C</VirtualParent>
+            <VirtualParent>ADE6B318F8720FA6</VirtualParent>
+            <VirtualParent>E2BE2DC489384B88</VirtualParent>
+            <VirtualParent>633754418C79688F</VirtualParent>
+            <VirtualParent>AD351B039F32354</VirtualParent>
+            <VirtualParent>5E07FC8A181D3C42</VirtualParent>
+          </VirtualParents>
+          <Id>E2BE2DC489384B88</Id>
+          <Name>molarity</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>9949AF08996CD38F</Id>
+              <Text>concentration formula</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>EFBCB1C6EAA8564</Id>
+              <Text>What is the formula for concentration of a solution?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7E90B27F31970910</Id>
+              <Text>How do you calculate the concentration of a solution?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>21F17824F215385E</Id>
+              <Text>The formula to calculate the concentration of a solution is stated as below: 
+
+Concentration = Mass of solute(g) Volume of solution(dm 3 )</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>1B065161B1FBBB11</VirtualParent>
+            <VirtualParent>D8754D854B5A4B9C</VirtualParent>
+            <VirtualParent>ADE6B318F8720FA6</VirtualParent>
+            <VirtualParent>E2BE2DC489384B88</VirtualParent>
+            <VirtualParent>633754418C79688F</VirtualParent>
+            <VirtualParent>AD351B039F32354</VirtualParent>
+            <VirtualParent>5E07FC8A181D3C42</VirtualParent>
+          </VirtualParents>
+          <Id>AD351B039F32354</Id>
+          <Name>concentration formula</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>639C9A31601B5A85</Id>
+              <Text>factors that affect the pH value of acid or alkali</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>2818D7DAD6C4C16F</Id>
+              <Text>What are the factors that affect the pH value of acid or alkali?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>F6E267079CA32CD5</Id>
+              <Text>How are acid and alkali affected?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>31C18E8D71936956</Id>
+              <Text>What are the factors which affect the pH value of acid or alkali?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>D2B81D3D80C5CF99</Id>
+              <Text>Thee pH value of acid or alkali is affected by 2 factors: 
+
+1. The Molarity 
+2. The strength of acid and alkali</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>1B065161B1FBBB11</VirtualParent>
+            <VirtualParent>D8754D854B5A4B9C</VirtualParent>
+            <VirtualParent>ADE6B318F8720FA6</VirtualParent>
+            <VirtualParent>E2BE2DC489384B88</VirtualParent>
+            <VirtualParent>633754418C79688F</VirtualParent>
+            <VirtualParent>AD351B039F32354</VirtualParent>
+            <VirtualParent>5E07FC8A181D3C42</VirtualParent>
+          </VirtualParents>
+          <Id>633754418C79688F</Id>
+          <Name>factors</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>19E44246337230C8</Id>
+              <Text>_bored</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>6962CC1911466C5</Id>
+              <Text>Hey! Remember me? I'm still here.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>1B065161B1FBBB11</VirtualParent>
+            <VirtualParent>D8754D854B5A4B9C</VirtualParent>
+            <VirtualParent>ADE6B318F8720FA6</VirtualParent>
+            <VirtualParent>E2BE2DC489384B88</VirtualParent>
+            <VirtualParent>633754418C79688F</VirtualParent>
+            <VirtualParent>AD351B039F32354</VirtualParent>
+            <VirtualParent>5E07FC8A181D3C42</VirtualParent>
+          </VirtualParents>
+          <Id>1B065161B1FBBB11</Id>
+          <Name>_bored</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>324A878572DBE06A</Id>
+              <Text>What did I say?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>FE5D8474476DEF1</Id>
+              <Text>What did I just say?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>2BCF6613FEA39552</Id>
+              <Text>You said: [_lastinput]</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>5E07FC8A181D3C42</VirtualParent>
+            <VirtualParent>ADE6B318F8720FA6</VirtualParent>
+            <VirtualParent>1B065161B1FBBB11</VirtualParent>
+            <VirtualParent>D8754D854B5A4B9C</VirtualParent>
+            <VirtualParent>AD351B039F32354</VirtualParent>
+            <VirtualParent>633754418C79688F</VirtualParent>
+            <VirtualParent>E2BE2DC489384B88</VirtualParent>
+          </VirtualParents>
+          <Id>5E07FC8A181D3C42</Id>
+          <Name>lastinput</Name>
+        </Rule>
+      </Children>
+      <VirtualParents>
+        <VirtualParent>D9D8D0FF5C5940AD</VirtualParent>
+        <VirtualParent>D8754D854B5A4B9C</VirtualParent>
+        <VirtualParent>ADE6B318F8720FA6</VirtualParent>
+        <VirtualParent>E2BE2DC489384B88</VirtualParent>
+        <VirtualParent>633754418C79688F</VirtualParent>
+        <VirtualParent>AD351B039F32354</VirtualParent>
+        <VirtualParent>5E07FC8A181D3C42</VirtualParent>
+      </VirtualParents>
+      <Id>FAC6F422AACDD19</Id>
+      <Name>7.3</Name>
+    </Rule>
+    <Rule>
+      <Inputs>
+        <Input>
+          <Id>8C9FAC4798680751</Id>
+          <Text>4</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>D494FFBD2B4F2D8C</Id>
+          <Text>7.4</Text>
+          <Condition />
+        </Input>
+        <Input>
+          <Id>621E7E75ECD9D974</Id>
+          <Text>neutralisation</Text>
+          <Condition />
+        </Input>
+      </Inputs>
+      <Outputs>
+        <Output>
+          <Id>C4390858F89EF5F3</Id>
+          <Text>What do you want to learn in subchapter 7.4 Neutralisation?  
+
+Please type exit to leave this subchapter</Text>
+          <Condition />
+          <Cmd />
+        </Output>
+      </Outputs>
+      <Children>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>5FE19C501CEEBED8</Id>
+              <Text>*</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>67CCB06CEE467A0D</Id>
+              <Text>_blank</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>85F0AB0A517FE3F</Id>
+              <Text>&lt;send 7.4&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>A18B500F6C0C2B2</VirtualParent>
+            <VirtualParent>83DD4F01B629C8E5</VirtualParent>
+            <VirtualParent>8DDCD48075EF4AC6</VirtualParent>
+            <VirtualParent>3D7D4C74789ADCCB</VirtualParent>
+            <VirtualParent>E6BE35EFBEDE48F1</VirtualParent>
+            <VirtualParent>4B14B7ED34B919C</VirtualParent>
+          </VirtualParents>
+          <Id>83DD4F01B629C8E5</Id>
+          <Name>*</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>1F0CA93B972DA248</Id>
+              <Text>exit</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>B2AFC65FEE9D2CB1</Id>
+              <Text>Exit</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>35E8F16FD9030127</Id>
+              <Text>&lt;send [name]&gt;</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>A18B500F6C0C2B2</VirtualParent>
+            <VirtualParent>C2146E8F600F14E5</VirtualParent>
+            <VirtualParent>83DD4F01B629C8E5</VirtualParent>
+            <VirtualParent>8DDCD48075EF4AC6</VirtualParent>
+            <VirtualParent>3D7D4C74789ADCCB</VirtualParent>
+            <VirtualParent>E6BE35EFBEDE48F1</VirtualParent>
+            <VirtualParent>4B14B7ED34B919C</VirtualParent>
+          </VirtualParents>
+          <Id>C2146E8F600F14E5</Id>
+          <Name>exit</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>E511D05B870C5E01</Id>
+              <Text>dilution</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>FE168582B22383B0</Id>
+              <Text>what is dilution</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>E70742C0E8D20235</Id>
+              <Text>definition of diution</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>5B90D9BCB8D8136</Id>
+              <Text>What does dilution mean?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>3A61806AA21C8B90</Id>
+              <Text>Whats dilution?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>887206A7A6C7D5D6</Id>
+              <Text>Dilution is a process of adding water to the standard solution lowered the concentration of the solution.
+In dilution of solution, we should take note that mole of solute before dilution is equal to the mole of solute after dilution.
+
+Number of mol of solute before dilution = Number of mole of solute after dilution
+
+Formula to calculate dilution
+M1V1 =M2V2
+
+M1 = Molarity before dilution
+M2 = Molarity after dilution
+V1 = Volume before dilution
+V2 = Volume after dilution</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>A18B500F6C0C2B2</VirtualParent>
+            <VirtualParent>83DD4F01B629C8E5</VirtualParent>
+            <VirtualParent>8DDCD48075EF4AC6</VirtualParent>
+            <VirtualParent>3D7D4C74789ADCCB</VirtualParent>
+            <VirtualParent>E6BE35EFBEDE48F1</VirtualParent>
+            <VirtualParent>4B14B7ED34B919C</VirtualParent>
+          </VirtualParents>
+          <Id>8DDCD48075EF4AC6</Id>
+          <Name>dilution</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>661A8579193366E6</Id>
+              <Text>neutralisation</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>5D0F53D1E9157328</Id>
+              <Text>Neutralisation</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>75CDA13A9329155</Id>
+              <Text>What is neutralisation</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>DD55B37B5698EFF4</Id>
+              <Text>Definition of neutralisation</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>92DCF11DA01979</Id>
+              <Text>neutralisation meaning</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>927F79495D80988A</Id>
+              <Text>Example of neutralisation</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>DB21F0CB1A82465D</Id>
+              <Text>What does neutralisation mean?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>C1CE97BEB4C467AF</Id>
+              <Text>Whats neutralisation?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>C460A5CC74CE4074</Id>
+              <Text>Neutralisation is the reaction of acid and base to produce salt and water
+
+Example :
+hydrochloric acid+ sodium hydroxide = sodium chloride + water 
+(HCl + NaOH =NaCl + H2O)</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>A18B500F6C0C2B2</VirtualParent>
+            <VirtualParent>83DD4F01B629C8E5</VirtualParent>
+            <VirtualParent>8DDCD48075EF4AC6</VirtualParent>
+            <VirtualParent>3D7D4C74789ADCCB</VirtualParent>
+            <VirtualParent>E6BE35EFBEDE48F1</VirtualParent>
+            <VirtualParent>4B14B7ED34B919C</VirtualParent>
+          </VirtualParents>
+          <Id>3D7D4C74789ADCCB</Id>
+          <Name>neutralisation</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>88285F89CAA9FA9D</Id>
+              <Text>usage</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>8288D04C11A47517</Id>
+              <Text>usage of neutralisation</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>7C025845EC519282</Id>
+              <Text>application of neutralisation</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>3414260C9AF981C3</Id>
+              <Text>Neutralisation can be applied in what area</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>B870703D9B5F46D4</Id>
+              <Text>Neutralisation can be applied in many area 
+1.)Medicine
+Example : calcium carbonate ,sodium hydrogen carbonate
+
+2.)Agriculture 
+Example :sodium hydroxide,  potassium hydroxide
+
+3.)Electroplating
+Example :sulphuric acid</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>A18B500F6C0C2B2</VirtualParent>
+            <VirtualParent>83DD4F01B629C8E5</VirtualParent>
+            <VirtualParent>8DDCD48075EF4AC6</VirtualParent>
+            <VirtualParent>3D7D4C74789ADCCB</VirtualParent>
+            <VirtualParent>E6BE35EFBEDE48F1</VirtualParent>
+            <VirtualParent>4B14B7ED34B919C</VirtualParent>
+          </VirtualParents>
+          <Id>E6BE35EFBEDE48F1</Id>
+          <Name>usage</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>C2E683B73B88EF86</Id>
+              <Text>_bored</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>A532F1B4129EE16</Id>
+              <Text>Hey! Remember me? I'm still here.</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>A18B500F6C0C2B2</VirtualParent>
+            <VirtualParent>83DD4F01B629C8E5</VirtualParent>
+            <VirtualParent>8DDCD48075EF4AC6</VirtualParent>
+            <VirtualParent>3D7D4C74789ADCCB</VirtualParent>
+            <VirtualParent>E6BE35EFBEDE48F1</VirtualParent>
+            <VirtualParent>4B14B7ED34B919C</VirtualParent>
+          </VirtualParents>
+          <Id>A18B500F6C0C2B2</Id>
+          <Name>_bored</Name>
+        </Rule>
+        <Rule>
+          <Inputs>
+            <Input>
+              <Id>282F9A776268C3F2</Id>
+              <Text>What did I say?</Text>
+              <Condition />
+            </Input>
+            <Input>
+              <Id>E2C99F8498D89CE4</Id>
+              <Text>What did I just say?</Text>
+              <Condition />
+            </Input>
+          </Inputs>
+          <Outputs>
+            <Output>
+              <Id>82F5325E657289F1</Id>
+              <Text>You said: [_lastinput]</Text>
+              <Condition />
+              <Cmd />
+            </Output>
+          </Outputs>
+          <Children />
+          <VirtualParents>
+            <VirtualParent>3224ED8A45C267CF</VirtualParent>
+            <VirtualParent>4B14B7ED34B919C</VirtualParent>
+            <VirtualParent>83DD4F01B629C8E5</VirtualParent>
+            <VirtualParent>A18B500F6C0C2B2</VirtualParent>
+            <VirtualParent>8DDCD48075EF4AC6</VirtualParent>
+            <VirtualParent>3D7D4C74789ADCCB</VirtualParent>
+            <VirtualParent>E6BE35EFBEDE48F1</VirtualParent>
+          </VirtualParents>
+          <Id>4B14B7ED34B919C</Id>
+          <Name>lastinput</Name>
+        </Rule>
+      </Children>
+      <VirtualParents>
+        <VirtualParent>C2146E8F600F14E5</VirtualParent>
+        <VirtualParent>83DD4F01B629C8E5</VirtualParent>
+        <VirtualParent>8DDCD48075EF4AC6</VirtualParent>
+        <VirtualParent>3D7D4C74789ADCCB</VirtualParent>
+        <VirtualParent>E6BE35EFBEDE48F1</VirtualParent>
+        <VirtualParent>4B14B7ED34B919C</VirtualParent>
+      </VirtualParents>
+      <Id>EEF7A63AB03EDCF9</Id>
+      <Name>7.4</Name>
+    </Rule>
+  </Rules>
+  <ResourceFiles>
+    <ResourceFile>
+      <Filename>stitchsynonym.vsn</Filename>
+      <Filetype>SynonymFile</Filetype>
+    </ResourceFile>
+    <ResourceFile>
+      <Filename>code.vcm</Filename>
+      <Filetype>CodeModuleFile</Filetype>
+    </ResourceFile>
+  </ResourceFiles>
+  <Info>
+    <Author>Jordan bin Sahabudin, Khor Zhen Win, Koh Jia Yu</Author>
+    <Copyright>ChemBot</Copyright>
+    <License>ChemBot</License>
+    <AuthorWebsite />
+    <CreationDate>2020-12-06T20:42:00.4021952+08:00</CreationDate>
+    <LastUpdateDate>2021-02-11T13:19:47.0462541+08:00</LastUpdateDate>
+    <Rating>
+      <Rating>Teens</Rating>
+      <Language>false</Language>
+      <Sexual>false</Sexual>
+      <Violence>false</Violence>
+      <Other>false</Other>
+      <Description />
+    </Rating>
+    <Category>Educational</Category>
+    <Language>English</Language>
+    <Comment>This is ChemBot, a science and chemistry education chatterbot for Form 5 SPM students.</Comment>
+  </Info>
+  <Version>1.0</Version>
+  <Build>195</Build>
+</KnowledgeBase>

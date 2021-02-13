@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SynonymGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Synonyms>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>46FC701E9FC66299</Id>
+          <Text>nice to meet you</Text>
+        </Phrase>
+        <Phrase>
+          <Id>3485F38F50125FE</Id>
+          <Text>whats your name</Text>
+        </Phrase>
+        <Phrase>
+          <Id>D047E0EF59031025</Id>
+          <Text>who are you</Text>
+        </Phrase>
+        <Phrase>
+          <Id>B732747BA7CB5F7E</Id>
+          <Text>what is up</Text>
+        </Phrase>
+        <Phrase>
+          <Id>3A71E931BE1D6419</Id>
+          <Text>whats up</Text>
+        </Phrase>
+        <Phrase>
+          <Id>626A1C03E2DEF12C</Id>
+          <Text>hello</Text>
+        </Phrase>
+        <Phrase>
+          <Id>977704489850AAEB</Id>
+          <Text>hey</Text>
+        </Phrase>
+        <Phrase>
+          <Id>313687FDDE2B878B</Id>
+          <Text>hi</Text>
+        </Phrase>
+      </Phrases>
+      <Name>hi</Name>
+      <Id>C94B4DDA1E1030D4</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>8244DBF4F5F717CA</Id>
+          <Text>what are</Text>
+        </Phrase>
+        <Phrase>
+          <Id>2A883195BADB0B52</Id>
+          <Text>what is</Text>
+        </Phrase>
+        <Phrase>
+          <Id>461871FF852872DA</Id>
+          <Text>what're</Text>
+        </Phrase>
+        <Phrase>
+          <Id>39C9D1B94E75D321</Id>
+          <Text>what's</Text>
+        </Phrase>
+      </Phrases>
+      <Name>what is</Name>
+      <Id>A9247EBD15B2A1FC</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>2EF978F82970AF25</Id>
+          <Text>What is</Text>
+        </Phrase>
+        <Phrase>
+          <Id>28EC8D3EBB9D03BE</Id>
+          <Text>What's</Text>
+        </Phrase>
+        <Phrase>
+          <Id>7AE20C5E60302214</Id>
+          <Text>Whats</Text>
+        </Phrase>
+      </Phrases>
+      <Name>intro</Name>
+      <Id>7C581567E243203D</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>BE096962341798D6</Id>
+          <Text>I am not in a mood to talk about it</Text>
+        </Phrase>
+        <Phrase>
+          <Id>4A6C699771A0AA7</Id>
+          <Text>I am fine, thank you.</Text>
+        </Phrase>
+        <Phrase>
+          <Id>DBB65F02E2B9DA</Id>
+          <Text>I am doing fine</Text>
+        </Phrase>
+        <Phrase>
+          <Id>B8A37E8853834C57</Id>
+          <Text>I am doing good</Text>
+        </Phrase>
+        <Phrase>
+          <Id>71677DC5A5083A7</Id>
+          <Text>I am doing ok</Text>
+        </Phrase>
+      </Phrases>
+      <Name>mood</Name>
+      <Id>8F6EA86B96ECBE12</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>60CB158135A8E6AA</Id>
+          <Text>Hello, my name is Jordan</Text>
+        </Phrase>
+        <Phrase>
+          <Id>6E9DF0EF1F22E398</Id>
+          <Text>You can call me Jordan</Text>
+        </Phrase>
+        <Phrase>
+          <Id>FAE6DFF2CC48D641</Id>
+          <Text>Hello, I am Jordan</Text>
+        </Phrase>
+        <Phrase>
+          <Id>EF9FAAD5EC980389</Id>
+          <Text>My name is Jordan</Text>
+        </Phrase>
+        <Phrase>
+          <Id>9D471D927C91FB47</Id>
+          <Text>I am Jordan</Text>
+        </Phrase>
+        <Phrase>
+          <Id>2EEA1C6395963919</Id>
+          <Text>I'm Jordan</Text>
+        </Phrase>
+        <Phrase>
+          <Id>8FE83F35B5A5A27F</Id>
+          <Text>My name is</Text>
+        </Phrase>
+      </Phrases>
+      <Name>name</Name>
+      <Id>614D6056B211A4A6</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>A4F71C5BD8F809EA</Id>
+          <Text>how do acids help people in life</Text>
+        </Phrase>
+      </Phrases>
+      <Name>acidshelpp</Name>
+      <Id>65BF4C4758FAB9C4</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>CC23BCCA74603B28</Id>
+          <Text>what are ph values</Text>
+        </Phrase>
+        <Phrase>
+          <Id>DB86C6831FE7EF80</Id>
+          <Text>what is ph value?</Text>
+        </Phrase>
+        <Phrase>
+          <Id>744177121A3549D0</Id>
+          <Text>whats ph value</Text>
+        </Phrase>
+        <Phrase>
+          <Id>E53EB9CF2B113354</Id>
+          <Text>ph value</Text>
+        </Phrase>
+      </Phrases>
+      <Name>ph value</Name>
+      <Id>6CBD8262C9C02C3C</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>DD5656ED984C7AF6</Id>
+          <Text>13</Text>
+        </Phrase>
+      </Phrases>
+      <Name>quiz 1 correct</Name>
+      <Id>C37BCF3B15E75E8D</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>74685EA7D5DCFFB7</Id>
+          <Text>8</Text>
+        </Phrase>
+        <Phrase>
+          <Id>975DECA29EAAD420</Id>
+          <Text>2</Text>
+        </Phrase>
+        <Phrase>
+          <Id>ADDEF93015D0F0BD</Id>
+          <Text>1</Text>
+        </Phrase>
+      </Phrases>
+      <Name>quiz 1 incorrect</Name>
+      <Id>7F5857C4F7D8CCC4</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>5AF571C1F1A0B9D7</Id>
+          <Text>acids</Text>
+        </Phrase>
+      </Phrases>
+      <Name>quiz 2 correct</Name>
+      <Id>52A3880887108D05</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>A0580AF19252955C</Id>
+          <Text>water</Text>
+        </Phrase>
+        <Phrase>
+          <Id>53D35DCE34384014</Id>
+          <Text>salts</Text>
+        </Phrase>
+        <Phrase>
+          <Id>44F4D0DAFDA47B17</Id>
+          <Text>bases</Text>
+        </Phrase>
+      </Phrases>
+      <Name>quiz 2 incorrect</Name>
+      <Id>6B799EB41415FC51</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>E7DBB6FBA579AD83</Id>
+          <Text>solubility</Text>
+        </Phrase>
+      </Phrases>
+      <Name>quiz 3 correct</Name>
+      <Id>F55D458C580F5E3</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>553C3C4CD37D6548</Id>
+          <Text>degree of saturation</Text>
+        </Phrase>
+        <Phrase>
+          <Id>C54C84D52EFE455D</Id>
+          <Text>rate of solution</Text>
+        </Phrase>
+        <Phrase>
+          <Id>384F63CBEEB5EB51</Id>
+          <Text>concentration</Text>
+        </Phrase>
+      </Phrases>
+      <Name>quiz 3 incorrect</Name>
+      <Id>23F061E7B93D569F</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>34C89DFF608FB3BC</Id>
+          <Text>hydrogen ion concentration</Text>
+        </Phrase>
+      </Phrases>
+      <Name>quiz 4 correct</Name>
+      <Id>4CD68DCDD9FD6B8F</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>C2E84B2ED62E1FCB</Id>
+          <Text>temperature of the solution</Text>
+        </Phrase>
+        <Phrase>
+          <Id>2BBC7C31847F2245</Id>
+          <Text>solubility of a solute</Text>
+        </Phrase>
+      </Phrases>
+      <Name>quiz 4 incorrect</Name>
+      <Id>4716D92EBEA463A9</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>26B5AFF4EE7AA92E</Id>
+          <Text>indicator</Text>
+        </Phrase>
+      </Phrases>
+      <Name>quiz 5 correct</Name>
+      <Id>DE1EF694EEBA61D0</Id>
+    </Synonym>
+    <Synonym>
+      <Phrases>
+        <Phrase>
+          <Id>79B7FBAE799B62E</Id>
+          <Text>instrument</Text>
+        </Phrase>
+        <Phrase>
+          <Id>412CE9365B77405F</Id>
+          <Text>inhibitor</Text>
+        </Phrase>
+        <Phrase>
+          <Id>FA4E39C99156D830</Id>
+          <Text>catalyst</Text>
+        </Phrase>
+      </Phrases>
+      <Name>quiz 5 incorrect</Name>
+      <Id>1D446B2CFE8EE6DF</Id>
+    </Synonym>
+  </Synonyms>
+</SynonymGroup>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Functions>
+    <Function>
+      <Id />
+      <Name>greeting</Name>
+      <ReturnType>string</ReturnType>
+      <Parameters />
+      <Code>int hour = DateTime.Now.Hour;
+string greet = "";
+
+if (hour &gt;=1 &amp;&amp; hour &lt;12) {
+   greet = "Good Morning";
+}
+
+else if (hour &gt;= 12 &amp;&amp; hour &lt;16) {
+   greet = "Good Aftenoon";
+}
+
+else if (hour &gt;=16 &amp;&amp;hour &lt;23) {
+   greet="Good Evening";
+}
+
+else { 
+   greet = "Hello my friend";
+}
+
+return greet; 
+
+
+
+</Code>
+    </Function>
+  </Functions>
+  <Name>code</Name>
+  <Language>CSharp</Language>
+  <Includes />
+  <Vars />
+</CodeModule>
