@@ -1,5 +1,5 @@
 # AI-Chatbot-System
-It is an Artificial Intelligence Chatbot application used to conduct live conversations via text with the use of inputs, outputs and synonyms.
+It is an Artificial Intelligence Chatbot application used to conduct live conversations via text with the use of inputs, outputs and synonyms. Focuses on assisting Form 5 SPM students in their chemistry subject. The software applications involved in this project are Verbot Player & Editor, Conversive Character Studio. 
 ## Functionalities
   •	Name recognition.   
   •	Able to greet users based on day and time during startup.
