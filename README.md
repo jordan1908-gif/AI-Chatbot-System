@@ -1,7 +1,8 @@
 # AI-Chatbot-System
 It is an Artificial Intelligence Chatbot application used to conduct live conversations via text with the use of inputs, outputs and synonyms.
 ## Functionalities
-  •	Name recognition.   •	Able to greet users based on day and time during startup.
+  •	Name recognition.   
+  •	Able to greet users based on day and time during startup.
   <br> •	Remembering users' last input. 
   <br> •	Speaking up automatically when input hasn't been entered for as long as 10 minutes.
   <br> •	Inform users when non-existent inputs are entered.
