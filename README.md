@@ -25,15 +25,15 @@ It is an Artificial Intelligence Chatbot used to conduct live conversations via 
 -----
 
 <div align="center">
-  <h2>Login Page</h2>
-<img src="images/login.gif" alt="gif">
+  <h2>Start-Up</h2>
+<img src="images/startup.PNG" alt="image">
 </div>
 
 -----
 
 <div align="center">
-  <h2>Home Page</h2>
-<img src="images/home.PNG" alt="image">
+  <h2>Name Recognition</h2>
+<img src="images/name.gif" alt="gif">
 </div>
 
 -----
