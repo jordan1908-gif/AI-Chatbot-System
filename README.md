@@ -3,7 +3,7 @@ It is an Artificial Intelligence Chatbot application used to conduct live conver
 ## Functionalities
   •	Name recognition.   
   •	Able to greet users based on day and time during startup.
-  <br> •	Remembering users' last input. 
+  <br> •	Remembers users' last input. 
   <br> •	Speaking up automatically when input hasn't been entered for as long as 10 minutes.
   <br> •	Inform users when non-existent inputs are entered.
   <br> •	Respond to users based on existing inputs and outputs.
